@@ -7,10 +7,15 @@ public class Main {
         int a =23;
         int b = 46;
         int c =add(a, b);
-        System.out.println(c);
+        int d = multiple (a,b);
+        System.out.println("Multiple :"+a+"*"+b+"="+d);
+        System.out.println("Add :"+a+"+"+b+"="+c);
 
     }
     private static int add (int a, int b){
-        return (a*b)+(b/a);
+        return a+b;
+    }
+    private static int multiple(int a, int b){
+        return a*b;
     }
 }
